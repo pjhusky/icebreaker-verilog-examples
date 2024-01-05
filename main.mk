@@ -37,6 +37,14 @@ sudo-iceprog: $(PROJ).bin
 	@echo 'Executing prog as root!!!'
 	sudo iceprog $<
 
+# iCESugar 1.5
+icesprog: $(PROJ).bin
+	icesprog $<
+
+sudo-icesprog: $(PROJ).bin
+	@echo 'Executing prog as root!!!'
+	sudo icesprog $<
+
 # The default DFU device is the no2bootloader used by icebreaker-bitsy
 DFU_DEVICE ?= 1d50:6146
 
