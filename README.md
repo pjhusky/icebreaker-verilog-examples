@@ -2,6 +2,11 @@
 This fork aims to port the iCEBreaker-board examples to the [iCESugar 1.5 fpga board](https://github.com/wuxx/icesugar/tree/master).
 Due to the iCEBreaker board using the same FPGA, it should be enough to add Makefile rules for the iCESugar 1.5 board, and adjust the [pinouts](https://stm32world.com/wiki/ICESugar), i.e., the Pin Constraints File (PCF) file. Changes are kept on the [icesugar_1_5 branch](https://github.com/pjhusky/icebreaker-verilog-examples/tree/icesugar_1_5).
 
+Updates:
+
+* Confirmed that [dvi-12bit](/icesugar/dvi-12bit/dvi-12bit.v) works on the iCESugar 1.5 board.
+
+
 # iCEBreaker examples
 
 [![Discord](https://img.shields.io/discord/613131135903596547?logo=discord)](https://discord.gg/P7FYThy) [![Support our crowd funding campaign at https://www.crowdsupply.com/1bitsquared/icebreaker-fpga](https://img.shields.io/badge/crowd_supply-support_us-27B1AC.svg)](https://www.crowdsupply.com/1bitsquared/icebreaker-fpga)
